@@ -1,0 +1,22 @@
+﻿@model MVCApp_demo_new.Models.Customer
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DisplayRegi</title>
+</head>
+<body>
+    <div>
+        FirstName:@Model.CustFName
+        LastName:@Model.CustLName
+        Gender:@Model.CustGender
+        Address:@ViewBag.slctedvalue
+    </div>
+</body>
+</html>
